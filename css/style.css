@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-explore {
-  padding-bottom: 40px;
+  padding-bottom: 20px !important;
 }
 
 .fh5co-explore-bg-color {
@@ -395,9 +395,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mt {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
 }
+
+.mt h3 {
+  font-size: 24px !important;
+}
+
 .mt h4 {
   position: relative;
   padding-left: 40px;
@@ -1119,6 +1124,10 @@ h1, h2, h3, h4, h5, h6 {
   #map {
     height: 200px;
   }
+
+  #map {
+    height: 300px !important;
+}
 }
 
 .mfp-with-zoom .mfp-container,
@@ -1205,6 +1214,11 @@ h1, h2, h3, h4, h5, h6 {
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
   border: 2px solid #00516c;
+}
+
+#navbar ul.navbar-nav li {
+  display: block;
+  margin: 10px 0;
 }
 
 img.copa {margin-top: 40px;
@@ -1303,6 +1317,18 @@ img.sholy:hover {filter: opacity(0.7);}
 
 img.ppp:hover {filter: opacity(0.7);}
 
+.copa, .cardenas, .jean, .sholy {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-top: 20px !important;
+}
+
+.no, .no1, .no2, .no3 {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-top: 20px !important;
+}
+
 
   p.logo {
     float: right;
@@ -1320,8 +1346,7 @@ img.ppp:hover {filter: opacity(0.7);}
     filter: hue-rotate(30deg);
     filter: saturate(5);
     filter: brightness(0.7);
-
-
+    font-size: 20px !important;
   }
 
   #tite {   
@@ -1336,7 +1361,9 @@ img.ppp:hover {filter: opacity(0.7);}
     font-weight: bold; 
     border-radius: 5px; 
     display: inline-block; 
-    margin-left: -550px;
+    margin-left: 0 !important;
+    width: 100%;
+    text-align: center;
   }
 
   #emp:hover {
@@ -1370,5 +1397,28 @@ img.ppp:hover {filter: opacity(0.7);}
     transition: 0.3s ease;
 }
 
+.partner-logo img {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
 .image-container:hover .overlay-image { opacity: 1; }
 .image-container:hover .background-image { opacity: 0.7; }
+
+@media screen and (max-width: 768px) {
+  body {
+      font-size: 16px;
+  }
+
+  h1 {
+      font-size: 28px !important;
+  }
+
+  h2 {
+      font-size: 24px !important;
+  }
+
+  h3 {
+      font-size: 20px !important;
+  }
+}
