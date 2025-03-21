@@ -1265,7 +1265,8 @@ img.jean2 {
 
   }
 
-.centrado {position: absolute;
+.centrado {
+  position: absolute;
   bottom: 50%;
   left: 50%;   
   top: 40%;
@@ -1274,6 +1275,25 @@ img.jean2 {
   font-size: 100px;
   color: white;
   }
+
+/* Ajustes para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  #fh5co-testimony {
+      padding: 2em 0;
+  }
+
+  .centrado {
+      font-size: 40px; /* Tamaño de fuente más pequeño para móviles */
+  }
+
+  .desc {
+      font-size: 16px; /* Tamaño de fuente más pequeño para móviles */
+  }
+
+  .gallery img.ppp {
+      border-radius: 0; /* Eliminar bordes redondeados en móviles si es necesario */
+  }
+}
 
 img.dos{
   border-radius: 30%;
@@ -1330,6 +1350,12 @@ img.ppp:hover {filter: opacity(0.7);}
 }
 
 .copa2, .cardenas2, .jean2 {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-top: 20px !important;
+}
+
+.copa, .cardenas, .jean, .sholy {
   width: 100% !important;
   margin-left: 0 !important;
   margin-top: 20px !important;
@@ -1417,7 +1443,7 @@ img.ppp:hover {filter: opacity(0.7);}
   }
 
   h1 {
-      font-size: 28px !important;
+      font-size: 50px !important;
   }
 
   h2 {
