@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color:  #ffffff  ;
   color: #fff;
 	background-size: cover, 800px;
-	background-position:250px 25px, 1000px 50px;
+	background-position: 400px 25px, 1000px 50px;
 	background-repeat: no-repeat, no-repeat;
 	display: flex; height: 100vh; 
 	padding-left: 0%; 
@@ -1324,6 +1324,12 @@ img.ppp:hover {filter: opacity(0.7);}
 }
 
 .no, .no1, .no2, .no3 {
+  width: 90% !important;
+  margin-left: 0 !important;
+  margin-top: 20px !important;
+}
+
+.copa2, .cardenas2, .jean2 {
   width: 100% !important;
   margin-left: 0 !important;
   margin-top: 20px !important;
