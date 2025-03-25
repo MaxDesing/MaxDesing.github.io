@@ -1,3 +1,4 @@
+/* FUENTES E ICONOS */
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -576,106 +577,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #393e46;
 }
 
- /*
-.fh5co-pricing {
-  padding: 4em 0 6em 0;
-  background: #f1faff;
-}
-.fh5co-pricing .pricing {
-  display: block;
-  float: left;
-  margin-bottom: 30px;
-}
-.fh5co-pricing .price-box {
-  text-align: center;
-  padding: 30px;
-  background: #fff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  margin-bottom: 40px;
-  position: relative;
-  -webkit-box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
-  -moz-box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
-  -ms-box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
-  -o-box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
-  box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
-}
-.fh5co-pricing .price-box.popular .btn-select-plan {
-  background: #00516c;
-}
-.fh5co-pricing .price-box .btn-select-plan {
-  padding: 10px 20px;
-  background: #1fb5f6;
-  color: #fff;
-  -webkit-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.15);
-  -ms-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.15);
-  -o-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.15);
-}
-.fh5co-pricing .pricing-plan {
-  margin: 0 0 50px 0;
-  padding: 0;
-  font-size: 13px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #888f94;
-}
-.fh5co-pricing .pricing-plan.pricing-plan-offer {
-  margin-bottom: 24px;
-}
-.fh5co-pricing .pricing-plan span {
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 0;
-  color: #d5d8db;
-}
-.fh5co-pricing .price {
-  font-size: 72px;
-  color: #6d6d6d;
-  line-height: 50px;
-}
-.fh5co-pricing .price .currency {
-  font-size: 30px;
-  top: -0.9em;
-  padding-right: 10px;
-}
-.fh5co-pricing .price small {
-  font-size: 13px;
-  display: block;
-  text-transform: uppercase;
-  color: #888f94;
-}
-*/
-
-/* .fh5co-services .box-services {
-  position: relative;
-  margin-bottom: 70px;
-}
-.fh5co-services .box-services i {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 54px;
-  color: #1fb5f6;
-}
-.fh5co-services .fh5co-post {
-  padding-left: 75px;
-}
-.fh5co-services .fh5co-post h3 {
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-.fh5co-services .call-to-action .btn-learn {
-  padding: 12px 30px;
-  background: #50c5f8;
-  color: #fff;
-}
-*/
-
+ 
 /* INDUMENTARIA */
 #fh5co-team {
   background: #f1faff;
