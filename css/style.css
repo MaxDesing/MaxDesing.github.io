@@ -4,7 +4,7 @@
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
-Ui  font-style: normal;
+  font-style: normal;
 }
 
 body {
@@ -1585,85 +1585,29 @@ img.copa, img.cardenas, img.jean, img.sholy {
   margin-bottom: 0;
 }
 
+
+/* Ajustar contenedor y tamaño de imagen mapa */
+.mapa-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 auto;
+}
+
+img.mapa {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* controlamos altura máxima */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* Para móviles aún más pequeños */
 @media screen and (max-width: 480px) {
-  img.copa2,
-  img.cardenas2,
-  img.jean2,
-  img.no,
-  img.no1,
-  img.no2,
-  img.no3 {
-    width: 100% !important;
-    margin-left: 0 !important;
-    margin-top: 20px !important;
-  }
-}
-
-/* Ajustes de textos grandes */
-@media screen and (max-width: 480px) {
-  #tite {
-    font-size: 50px !important;
-    text-align: center;
-  }
-}
-
-/* Ajuste especial para el botón #emp */
-@media screen and (max-width: 480px) {
-  #emp {
-    font-size: 18px;
-    padding: 10px 0;
-  }
-}
-
-/* Centramos el logo en móviles */
-@media screen and (max-width: 480px) {
-  p.logo, img.logo {
-    float: none;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-}
-
-/* Mejoramos textos dentro de .centrado */
-@media screen and (max-width: 480px) {
-  .centrado {
-    font-size: 30px;
-  }
-}
-
-
-/* RESPONSIVE: Ocultar menú y alinear logo + texto en móviles */
-@media screen and (max-width: 768px) {
-  #fh5co-header #navbar {
-    display: none;
-  }
-
-  .navbar-header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 10px;
-  }
-
-  .navbar-header img.logo {
-    width: 85px; /* puedes ajustar el tamaño del logo */
-    margin: 0;
-  }
-
-  .navbar-header p.logo {
-    margin: 0 0 0 10px;
-    font-size: 40px; /* tamaño de la fuente del texto */
-    color: #25445f;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-}
-
-@media screen and (max-width: 768px) {
   img.mapa {
-    width: 20%;
-    height: auto;
-    margin: 10px 0;
+    max-height: 250px; /* más pequeña en celulares */
   }
 }
