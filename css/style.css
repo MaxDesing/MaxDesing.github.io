@@ -100,6 +100,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 10px !important;
   }
 }
+
 #fh5co-header #navbar li a span {
   position: relative;
   display: block;
@@ -252,10 +253,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header .navbar-default {
   border: transparent;
-  background: #fcfcfc ;
+  background: #ffffff ;
   margin: 0;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 170px;
+  padding-right: 170px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
@@ -413,7 +414,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mt h3 {
-  font-size: 24px !important;
+  font-size: 37px !important;
 }
 
 .mt h4 {
@@ -455,7 +456,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-testimony .wrap-testimony {
   margin: auto;
   position: relative;
-  width: 75%;
+  width: 80%;
 }
 #fh5co-testimony .wrap-testimony .testimony-slide {
   text-align: center;
@@ -485,7 +486,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   width: 72%;
   position: relative;
-  padding-bottom: 30px;
   margin-bottom: 30px;
 }
 @media screen and (max-width: 992px) {
@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 50px;
   height: 2px;
-  background: #1fb5f6;
+  background: #137fad;
   left: 50%;
   margin-left: -25px;
   bottom: 0;
@@ -586,8 +586,8 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-team .team-box {
   position: relative;
   padding: 30px;
-  padding-top: 5em;
-  background: #fff;
+  padding-top: 300px;
+  background: #1300661f;
   float: left;
   width: 100%;
   -webkit-box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
@@ -609,14 +609,15 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 0;
   left: 50%;
-  margin-top: -73px;
-  margin-left: -73px;
-  width: 147px;
-  height: 147px;
+  margin-top: -125px;
+  margin-left: -250px;
+  width: 500px;
+  height: 500px;
 }
 #fh5co-team .team-box .user img {
-  width: 147px;
-  height: 147px;
+  width: auto;
+  height: 400px;
+  object-fit: cover;
 }
 #fh5co-team .team-box h3 {
   margin-bottom: 10px;
@@ -673,19 +674,26 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
   margin-bottom: 0px;
   clear: both;
 }
+
+@media screen and (max-width: 768px) {
+  .section-heading {
+    margin-top: 50px;
+    font-size: 28px;
+  }
+} 
+
 .section-heading h2 {
   margin: 0 0 0 0;
-  font-size: 40px;
+  font-size: 55px;
   font-weight: 400;
-  color: #333;
+  color: #00516c;
   position: relative;
   display: block;
   padding-bottom: 10px;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 @media screen and (max-width: 768px) {
   .section-heading h2 {
@@ -1133,7 +1141,7 @@ img.copa2 {
   width: 800px;
   margin-left:20px;
   margin-top: 100px; 
-
+  border: 8px solid #25445f;
   }
 
 img.cardenas2 {
@@ -1159,27 +1167,35 @@ img.dos{
   filter: blur(15px);
 } 
 
-img.no {margin-top: 40px;
+img.no {
+  margin-top: 40px;
   margin-left: 100px;
   width:500px;
-  border-radius: 40px;}
+  border-radius: 50px;
+  border: 8px solid #25445f;
+}
 
-  img.no1 {margin-top: 10px;
+  img.no1 {
+    margin-top: 10px;
     margin-left: 150px;
     width:500px;
-    border-radius: 40px;
+    border-radius: 10px;
+    border: 8px solid #25445f;
   }
 
-  img.no2 {margin-top: 50px;
+  img.no2 {
+    margin-top: 50px;
     margin-left: 150px;
     width:500px;
-    border-radius: 40px;}
+    border-radius: 10px;
+  }
 
-  img.no3 {margin-top: 50px;
-  margin-left: 100px;
-  width:700px;
-  border-radius: 40px;
-  border:1px solid #000;
+  img.no3 {
+    margin-top: 50px;
+    margin-left: 100px;
+    width:700px;
+    border-radius: 10px;
+    border:1px solid #000;
     }
 
 img.copa:hover {filter: opacity(0.7);}
@@ -1197,8 +1213,9 @@ img.ppp:hover {filter: opacity(0.7);}
 img.copa, img.cardenas, img.jean, img.sholy {
   width: 500px; 
   height: auto; 
-  border-radius: 40px; 
+  border-radius: 50px; 
   margin: 20px auto; 
+  border: 8px solid #25445f;
 }
 
 /* IMÁGENES DISPOSITIVOS MÓVILES*/
@@ -1207,13 +1224,13 @@ img.copa, img.cardenas, img.jean, img.sholy {
       width: 100%; 
       height: auto; 
       margin: 10px auto;
+      border: 8px solid #25445f;
   }
 }
 
 .no, .no1, .no2, .no3 {
-  width: 90% !important;
   margin-left: 0 !important;
-  margin-top: 20px !important;
+  margin-top: -50px !important;
 }
 
 .copa2, .cardenas2, .jean2 {
@@ -1278,10 +1295,12 @@ img.copa, img.cardenas, img.jean, img.sholy {
   /* TÍTULOS EXPLORAR */
 
   #tite {   
-    font-size: 90px; 
+    font-size: 150px; 
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:#25445f ;
+    text-align: left;
   }
+
 
 /* EMPECEMOS*/
   #emp {
@@ -1352,5 +1371,291 @@ img.copa, img.cardenas, img.jean, img.sholy {
 
   h3 {
       font-size: 20px !important;
+  }
+}
+
+.fh5co-project .project-grid {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+  display: table;
+}
+.fh5co-project .project-grid .desc {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 250px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-project .project-grid .desc {
+    opacity: 1;
+  }
+}
+.fh5co-project .project-grid .desc h3 {
+  margin-bottom: 10px;
+}
+.fh5co-project .project-grid .desc h3 a {
+  color: #fff;
+}
+.fh5co-project .project-grid .desc h3 a:hover, .fh5co-project .project-grid .desc h3 a:focus {
+  text-decoration: none;
+}
+.fh5co-project .project-grid .desc span {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 2px;
+}
+.fh5co-project .project-grid .desc p {
+  padding: 0;
+}
+.fh5co-project .project-grid .desc p a {
+  padding: 0;
+  color: #fff;
+}
+.fh5co-project .project-grid .desc p a:hover, .fh5co-project .project-grid .desc p a:focus {
+  text-decoration: none;
+}
+.fh5co-project .project-grid .desc .download, .fh5co-project .project-grid .desc .love {
+  position: absolute;
+  bottom: 0;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 7px 10px;
+  line-height: 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+.fh5co-project .project-grid .desc .download {
+  left: 30px;
+}
+.fh5co-project .project-grid .desc .love {
+  right: 30px;
+  color: red;
+}
+.fh5co-project .project-grid:hover .desc {
+  opacity: 1;
+}
+
+.fh5co-bg-color {
+  background: #f2f2f2;
+}
+
+#tf-about { 
+  padding: 50px;
+}
+
+.fh5co-social-container {
+  margin-bottom: 1em;
+}
+
+.fh5co-social {
+  padding: 0;
+  display: inline-block;
+  float: left;
+}
+.fh5co-social li {
+  padding: 0;
+  margin: 10px;
+  display: inline-block;
+  list-style: none;
+}
+.fh5co-social li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .1em;
+  color: #7b7b7b;
+}
+.fh5co-social li a i {
+  font-size: 14px;
+  color: #7b7b7b;
+}
+.fh5co-social li a:hover {
+  color: #87b6c4;
+}
+.fh5co-social li a:hover i {
+  color: #87b6c4;
+}
+
+.main_clients_content{
+	padding:100px 0px;
+	overflow:hidden;
+}
+.main_clients{}
+.single_clients{
+	margin-top:40px;
+	display:inline-block;
+}
+.single_clients p{
+	color:#abacae;
+	font-size:14px;
+
+}
+
+.clients_details{
+	width:100%;
+	margin-top:30px;
+}
+
+
+.clients_img{
+    width: 13%;
+    display: inline-block;
+    float: left;
+    border-radius: 100%;	
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.clients_details .clients_name{
+    width: 80%;
+    display: inline-block;
+    float: left;
+    padding-top: 2px;
+}
+.clients_name p{
+	margin:0;
+}
+.clients_name p span{
+	font-size:11px;
+}
+
+.estas {
+  background-color: #f5f5f5;
+}
+
+.fh5co-section-with-image {
+  position: relative;
+}
+.fh5co-section-with-image .fh5co-box {
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.9);
+  position:absolute;
+  /** z-index: 1001;**/
+  width: 40%;
+  right: 10%;
+  top: 20%;
+}
+@media screen and (max-width: 992px) {
+  .fh5co-section-with-image .fh5co-box {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    margin-top: auto !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .fh5co-section-with-image .fh5co-box {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    padding: 15px;
+  }
+}
+.fh5co-section-with-image h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-section-with-image h2 {
+    font-size: 32px;
+  }
+}
+.fh5co-section-with-image p {
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-section-with-image p {
+    font-size: 16px;
+  }
+}
+.fh5co-section-with-image p:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 480px) {
+  img.copa2,
+  img.cardenas2,
+  img.jean2,
+  img.no,
+  img.no1,
+  img.no2,
+  img.no3 {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+  }
+}
+
+/* Ajustes de textos grandes */
+@media screen and (max-width: 480px) {
+  #tite {
+    font-size: 50px !important;
+    text-align: center;
+  }
+}
+
+/* Ajuste especial para el botón #emp */
+@media screen and (max-width: 480px) {
+  #emp {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+}
+
+/* Centramos el logo en móviles */
+@media screen and (max-width: 480px) {
+  p.logo, img.logo {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+/* Mejoramos textos dentro de .centrado */
+@media screen and (max-width: 480px) {
+  .centrado {
+    font-size: 30px;
+  }
+}
+
+
+/* RESPONSIVE: Ocultar menú y alinear logo + texto en móviles */
+@media screen and (max-width: 768px) {
+  #fh5co-header #navbar {
+    display: none;
+  }
+
+  .navbar-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+
+  .navbar-header img.logo {
+    width: 85px; /* puedes ajustar el tamaño del logo */
+    margin: 0;
+  }
+
+  .navbar-header p.logo {
+    margin: 0 0 0 10px;
+    font-size: 40px; /* tamaño de la fuente del texto */
+    color: #25445f;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 }
