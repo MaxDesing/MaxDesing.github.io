@@ -1585,29 +1585,11 @@ img.copa, img.cardenas, img.jean, img.sholy {
   margin-bottom: 0;
 }
 
-
-/* Ajustar contenedor y tamaño de imagen mapa */
-.mapa-container {
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
-  padding: 0;
-  margin: 0 auto;
-}
-
-img.mapa {
-  width: 100%;
-  height: auto;
-  max-height: 400px; /* controlamos altura máxima */
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-
-/* Para móviles aún más pequeños */
-@media screen and (max-width: 480px) {
-  img.mapa {
-    max-height: 250px; /* más pequeña en celulares */
+/* En pantallas pequeñas, asegurar ajuste perfecto */
+@media screen and (max-width: 768px) {
+  img.img-responsive {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
   }
 }
