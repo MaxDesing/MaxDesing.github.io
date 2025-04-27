@@ -1659,3 +1659,11 @@ img.copa, img.cardenas, img.jean, img.sholy {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 }
+
+@media screen and (max-width: 768px) {
+  img.mapa {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+}
