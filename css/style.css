@@ -1543,21 +1543,6 @@ img.copa, img.cardenas, img.jean, img.sholy {
     font-size: 18px;
   }
   
-  /* EQUIPO */
-  #fh5co-team .team-box {
-    padding-top: 250px;
-  }
-  
-  #fh5co-team .team-box .user {
-    width: 400px;
-    height: 400px;
-    margin-left: -200px;
-  }
-  
-  #fh5co-team .team-box .user img {
-    height: 350px;
-  }
-  
   /* SECCIONES */
   #fh5co-services, #fh5co-testimony, #fh5co-explore, 
   #fh5co-faq, #fh5co-team, #fh5co-trusted, #fh5co-footer,
@@ -1585,6 +1570,33 @@ img.copa, img.cardenas, img.jean, img.sholy {
   
   #fh5co-testimony .wrap-testimony .testimony-slide blockquote p {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  #fh5co-team .team-box {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-top: 250px; /* Reducir el espacio superior */
+  }
+  
+  #fh5co-team .team-box .user {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -125px; /* Centrar mejor la imagen */
+    width: 250px;
+    height: 250px;
+  }
+  
+  #fh5co-team .team-box .user img {
+    height: 200px; /* Reducir tamaño de imagen */
+  }
+  
+  #fh5co-team {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 
