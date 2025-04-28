@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 0;
 
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   #fh5co-header #navbar .navbar-right {
     margin-right: -15px;
   }
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 17px;
   font-weight: 200;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   #fh5co-header #navbar li a {
     padding-left: 10px !important;
     padding-right: 10px !important;
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
   background: none;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   #fh5co-header #navbar li.active a {
     color: #00516c;
   }
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: scaleX(1);
   background-color: #00516c;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   #fh5co-header #navbar li.active a span:before {
     background-color: transparent;
   }
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .navbar-brand > span {
   color: #00516c;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   #fh5co-header .navbar-brand {
     padding-left: 10px !important;
     padding-right: 0 !important;
@@ -488,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   margin-bottom: 30px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   #fh5co-testimony .wrap-testimony .testimony-slide blockquote {
     width: 100%;
   }
@@ -542,7 +542,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   float: left;
 }
-@media screen and (max-width: 992px) {
+ (max-width: 992px) {
   .getting-started .call-to-action {
     float: none !important;
     width: 100%;
@@ -565,7 +565,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
   box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .getting-started .call-to-action a.sign-up {
     float: left !important;
   }
@@ -600,7 +600,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 5px;
   border-radius: 5px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   #fh5co-team .team-box {
     margin-bottom: 110px;
   }
@@ -1076,7 +1076,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .col-xxs-12 {
     float: none;
     width: 100%;
@@ -1547,7 +1547,7 @@ img.copa, img.cardenas, img.jean, img.sholy {
   right: 10%;
   top: 20%;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .fh5co-section-with-image .fh5co-box {
     position: relative;
     right: auto;
@@ -1556,7 +1556,7 @@ img.copa, img.cardenas, img.jean, img.sholy {
     margin-top: auto !important;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .fh5co-section-with-image .fh5co-box {
     position: relative;
     right: auto;
@@ -1669,5 +1669,4 @@ img.copa, img.cardenas, img.jean, img.sholy {
       display: none;
   }
 }
-
-
+                                                                           
