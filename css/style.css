@@ -1230,7 +1230,7 @@ img.copa, img.cardenas, img.jean, img.sholy {
 
 .no, .no1, .no2, .no3 {
   margin-left: 0 !important;
-  margin-top: -50px !important;
+  margin-top: 20px !important;
 }
 
 .copa2, .cardenas2, .jean2 {
@@ -1585,11 +1585,88 @@ img.copa, img.cardenas, img.jean, img.sholy {
   margin-bottom: 0;
 }
 
-/* En pantallas pequeñas, asegurar ajuste perfecto */
+/* Pantallas pequeñas (móviles) */
 @media screen and (max-width: 768px) {
-  img.img-responsive {
+  /* Ajustes generales */
+  body {
+    font-size: 16px;
+  }
+  
+  /* Header */
+  #fh5co-header .navbar-brand {
+    font-size: 20px;
+  }
+  
+  #fh5co-header #navbar li a {
+    font-size: 15px;
+    padding: 5px 8px;
+  }
+  
+  /* Títulos */
+  h1 {
+    font-size: 32px !important;
+  }
+  
+  h2 {
+    font-size: 26px !important;
+  }
+  
+  h3 {
+    font-size: 20px !important;
+  }
+  
+  /* Sección hero */
+  #fh5co-home .text-inner h1 {
+    font-size: 28px;
+  }
+  
+  #fh5co-home .text-inner h2 {
+    font-size: 18px;
+  }
+  
+  /* Sección con imagen de fondo */
+  .fh5co-section-with-image .fh5co-box {
+    position: relative;
     width: 100%;
+    right: auto;
+    margin-top: 0;
+    padding: 30px 15px;
+  }
+  
+  /* Sección de productos */
+  .fh5co-project .col-md-4 {
+    width: 100%;
+  }
+  
+  /* Sección de estadísticas */
+  .count-box {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  #fh5co-footer .col-md-4 {
+    margin-bottom: 30px;
+  }
+  
+  /* Imágenes */
+  img.copa, img.cardenas, img.jean, img.sholy {
+    max-width: 100%;
     height: auto;
-    margin: 10px 0;
+  }
+  
+  /* Ajustes específicos para la página COPA.html */
+  #tite {
+    font-size: 60px !important;
+  }
+  
+  .no, .no1, .no2, .no3 {
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+  }
+  
+  .copa2, .cardenas2, .jean2 {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
   }
 }
