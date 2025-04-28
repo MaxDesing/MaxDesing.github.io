@@ -1,4 +1,4 @@
-/* FUENTES E ICONOS */
+FUENTES E ICONOS */
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -1390,6 +1390,7 @@ img.copa, img.cardenas, img.jean, img.sholy {
   background-color: #f5f5f5;
 }
 
+/*ubicacion*/
 .fh5co-section-with-image {
   position: relative;
 }
@@ -1403,6 +1404,11 @@ img.copa, img.cardenas, img.jean, img.sholy {
   top: 20%;
 }
 
+.fh5co-section-with-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 .fh5co-section-with-image h2 {
   font-size: 50px;
@@ -1417,54 +1423,170 @@ img.copa, img.cardenas, img.jean, img.sholy {
   margin-bottom: 0;
 }
 
-/* Media Queries para Responsive Design */
+
+/* ============================================ */
+/* MEDIA QUERIES - DISEÑO RESPONSIVO COMPLETO */
+/* ============================================ */
+
+@media (max-width: 1600px) {
+  #fh5co-header .navbar-default {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  #tite {
+    font-size: 130px;
+  }
+}
+
+@media (max-width: 1400px) {
+  #fh5co-header .navbar-default {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .fh5co-section-with-image .fh5co-box {
+    width: 45%;
+    right: 5%;
+  }
+}
+
 @media (max-width: 1200px) {
   #fh5co-header .navbar-default {
     padding-left: 50px;
     padding-right: 50px;
   }
   
-  .fh5co-section-with-image .fh5co-box {
-    width: 50%;
-    right: 5%;
-  }
-}
-
-@media (max-width: 992px) {
-  #fh5co-header .navbar-default {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  
   #tite {
-    font-size: 100px;
-  }
-  
-  .fh5co-section-with-image .fh5co-box {
-    width: 60%;
-    position: relative;
-    right: auto;
-    top: auto;
-    margin: 0 auto;
-    float: none;
+    font-size: 110px;
   }
   
   .section-heading h2 {
     font-size: 45px;
   }
   
+  .fh5co-section-with-image .fh5co-box {
+    width: 50%;
+    padding: 40px;
+  }
+  
+  .fh5co-section-with-image h2 {
+    font-size: 42px;
+  }
+  
   img.copa, img.cardenas, img.jean, img.sholy {
+    width: 450px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* HEADER */
+  #fh5co-header .navbar-default {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  /* HOME */
+  #fh5co-home, #fh5co-home .text-wrap {
+    height: auto;
+    min-height: 100vh;
+    padding: 120px 0 80px;
+  }
+  
+  /* TITULOS */
+  #tite {
+    font-size: 80px;
+    text-align: center;
+  }
+  
+  .section-heading h2 {
+    font-size: 38px;
+  }
+  
+  .section-heading h3 {
+    font-size: 16px;
+  }
+  
+  /* IMAGENES */
+  img.copa, img.cardenas, img.jean, img.sholy {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .centrado {
+    font-size: 70px;
+    top: 35%;
+  }
+  
+  /* SECCION CON IMAGEN */
+  .fh5co-section-with-image .fh5co-box {
+    position: relative;
+    width: 90%;
+    right: auto;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: -50px 0 30px;
+    padding: 30px;
+  }
+  
+  .fh5co-section-with-image h2 {
+    font-size: 36px;
+  }
+  
+  .fh5co-section-with-image p {
+    font-size: 18px;
+  }
+  
+  /* EQUIPO */
+  #fh5co-team .team-box {
+    padding-top: 250px;
+  }
+  
+  #fh5co-team .team-box .user {
     width: 400px;
+    height: 400px;
+    margin-left: -200px;
+  }
+  
+  #fh5co-team .team-box .user img {
+    height: 350px;
+  }
+  
+  /* SECCIONES */
+  #fh5co-services, #fh5co-testimony, #fh5co-explore, 
+  #fh5co-faq, #fh5co-team, #fh5co-trusted, #fh5co-footer,
+  #fh5co-work, #fh5co-counters {
+    padding: 4em 0;
+  }
+  
+  .mt h3 {
+    font-size: 32px !important;
+  }
+  
+  .mt h4 {
+    font-size: 18px;
+    padding-left: 30px;
+  }
+  
+  /* TESTIMONIOS */
+  #fh5co-testimony .wrap-testimony {
+    width: 90%;
+  }
+  
+  #fh5co-testimony .wrap-testimony .testimony-slide blockquote {
+    width: 85%;
+  }
+  
+  #fh5co-testimony .wrap-testimony .testimony-slide blockquote p {
+    font-size: 18px;
   }
 }
 
 @media (max-width: 768px) {
-  /* Header y Navegación */
-  #fh5co-header .navbar-default {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
+  /* HEADER */
   .fh5co-nav-toggle {
     display: block;
   }
@@ -1485,6 +1607,7 @@ img.copa, img.cardenas, img.jean, img.sholy {
     float: none;
     display: block;
     text-align: center;
+    margin: 15px 0;
   }
   
   #navbar li.call-to-action a {
@@ -1492,15 +1615,9 @@ img.copa, img.cardenas, img.jean, img.sholy {
     display: inline-block;
   }
   
-  /* Home */
-  #fh5co-home, #fh5co-home .text-wrap {
-    height: auto;
-    min-height: 100vh;
-    padding: 100px 0;
-  }
-  
+  /* HOME */
   #fh5co-home .text-inner h1 {
-    font-size: 28px;
+    font-size: 32px;
   }
   
   #fh5co-home .text-inner h2 {
@@ -1510,180 +1627,207 @@ img.copa, img.cardenas, img.jean, img.sholy {
   
   #fh5co-home .text-inner .call-to-action a {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-right: 0;
   }
   
-  /* Títulos */
+  /* TITULOS */
   #tite {
     font-size: 60px;
-    text-align: center;
   }
   
   .section-heading h2 {
-    font-size: 36px;
+    font-size: 32px;
   }
   
-  .section-heading h3 {
-    font-size: 16px;
+  .centrado {
+    font-size: 50px;
   }
   
-  /* Imágenes */
-  img.copa, img.cardenas, img.jean, img.sholy {
-    width: 100%;
-    max-width: 300px;
-    display: block;
-    margin: 20px auto;
+  /* EQUIPO */
+  #fh5co-team .team-box {
+    padding-top: 200px;
   }
   
+  #fh5co-team .team-box .user {
+    width: 350px;
+    height: 350px;
+    margin-left: -175px;
+  }
+  
+  #fh5co-team .team-box .user img {
+    height: 300px;
+  }
+  
+  /* IMAGENES */
+  img.no, img.no1, img.no2, img.no3,
   img.copa2, img.cardenas2, img.jean2 {
     width: 100% !important;
     margin-left: 0 !important;
     margin-top: 20px !important;
   }
   
-  img.no, img.no1, img.no2, img.no3 {
-    width: 100%;
-    margin-left: 0 !important;
-    margin-top: 20px !important;
+  /* SECCIONES */
+  .row-bottom-padded-lg {
+    padding-bottom: 4em;
   }
   
-  .centrado {
-    font-size: 50px;
-    top: 30%;
+  .row-bottom-padded-md {
+    padding-bottom: 3em;
   }
   
-  /* Equipo */
-  #fh5co-team .team-box {
-    padding-top: 250px;
+  .row-bottom-padded-sm {
+    padding-bottom: 1.5em;
   }
   
-  #fh5co-team .team-box .user {
-    width: 300px;
-    height: 300px;
-    margin-left: -150px;
-  }
-  
-  #fh5co-team .team-box .user img {
-    height: 250px;
-  }
-  
-  /* Secciones */
-  #fh5co-services, #fh5co-testimony, #fh5co-explore, 
-  #fh5co-faq, #fh5co-team, #fh5co-trusted, #fh5co-footer,
-  #fh5co-work, #fh5co-counters {
-    padding: 3em 0;
-  }
-  
-  .mt h3 {
-    font-size: 28px !important;
-  }
-  
-  .mt h4 {
-    font-size: 18px;
-    padding-left: 30px;
-  }
-  
-  /* Footer */
-  #fh5co-footer .contact-info li {
-    font-size: 14px;
-  }
-  
-  /* Logo */
+  /* LOGO */
   p.logo {
-    font-size: 25px;
+    font-size: 28px;
+  }
+  
+  img.logo {
+    width: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* HEADER */
+  #fh5co-header .navbar-default {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .navbar-brand {
+    font-size: 20px;
+  }
+  
+  p.logo {
+    font-size: 24px;
   }
   
   img.logo {
     width: 50px;
   }
   
-  /* Contenedor Mapa */
-  .image-container {
-    height: 200px;
-  }
-}
-
-@media (max-width: 480px) {
-  /* Home */
+  /* HOME */
   #fh5co-home .text-inner h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
   
   #fh5co-home .text-inner h2 {
     font-size: 16px;
   }
   
-  /* Títulos */
+  /* TITULOS */
   #tite {
-    font-size: 40px;
+    font-size: 48px;
   }
   
   .section-heading h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
   
   .centrado {
-    font-size: 30px;
+    font-size: 40px;
+    top: 30%;
   }
   
-  /* Equipo */
+  /* EQUIPO */
   #fh5co-team .team-box {
-    padding-top: 200px;
+    padding: 30px;
+    padding-top: 180px;
   }
   
   #fh5co-team .team-box .user {
-    width: 250px;
-    height: 250px;
-    margin-left: -125px;
+    width: 280px;
+    height: 280px;
+    margin-left: -140px;
+    margin-top: -100px;
   }
   
   #fh5co-team .team-box .user img {
-    height: 200px;
+    height: 240px;
   }
   
-  /* Testimonios */
-  #fh5co-testimony .wrap-testimony {
+  /* SECCION CON IMAGEN */
+  .fh5co-section-with-image .fh5co-box {
+    padding: 25px;
     width: 95%;
   }
   
-  #fh5co-testimony .wrap-testimony .testimony-slide blockquote {
-    width: 90%;
-  }
-  
-  #fh5co-testimony .wrap-testimony .testimony-slide blockquote p {
-    font-size: 16px;
-  }
-  
-  /* Sección con imagen */
-  .fh5co-section-with-image .fh5co-box {
-    width: 90%;
-    padding: 30px;
-  }
-  
   .fh5co-section-with-image h2 {
-    font-size: 30px;
+    font-size: 28px;
+    margin-bottom: 15px;
   }
   
   .fh5co-section-with-image p {
     font-size: 16px;
   }
   
-  /* Logo */
-  p.logo {
-    font-size: 20px;
+  /* TESTIMONIOS */
+  #fh5co-testimony .wrap-testimony .testimony-slide blockquote p {
+    font-size: 16px;
   }
   
-  img.logo {
-    width: 40px;
+  /* FOOTER */
+  #fh5co-footer .contact-info li {
+    font-size: 14px;
+    padding-left: 35px;
+  }
+  
+  #fh5co-footer .contact-info li i {
+    font-size: 18px;
+  }
+  
+  #fh5co-footer .social-media li {
+    font-size: 20px;
   }
 }
 
-/* Orientación horizontal en móviles */
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 480px) {
+  /* TITULOS */
+  #tite {
+    font-size: 40px;
+  }
+  
+  .centrado {
+    font-size: 32px;
+  }
+  
+  /* EQUIPO */
+  #fh5co-team .team-box {
+    padding-top: 150px;
+  }
+  
+  #fh5co-team .team-box .user {
+    width: 240px;
+    height: 240px;
+    margin-left: -120px;
+  }
+  
+  #fh5co-team .team-box .user img {
+    height: 200px;
+  }
+  
+  /* BOTONES */
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  /* SECCIONES */
+  #fh5co-services, #fh5co-testimony, #fh5co-explore, 
+  #fh5co-faq, #fh5co-team, #fh5co-trusted, #fh5co-footer {
+    padding: 3em 0;
+  }
+}
+
+/* ORIENTACIÓN HORIZONTAL EN MÓVILES */
+@media (max-height: 500px) and (orientation: landscape) {
   #fh5co-home, #fh5co-home .text-wrap {
     height: auto;
-    padding: 50px 0;
+    min-height: 100vh;
+    padding: 80px 0;
   }
   
   #fh5co-home .text-inner h1 {
@@ -1696,6 +1840,10 @@ img.copa, img.cardenas, img.jean, img.sholy {
   }
   
   .centrado {
-    font-size: 40px;
+    font-size: 36px;
+  }
+  
+  #fh5co-header.navbar-fixed-top {
+    position: absolute !important;
   }
 }
