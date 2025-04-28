@@ -1229,6 +1229,7 @@ img.copa, img.cardenas, img.jean, img.sholy {
 }
 
 .no, .no1, .no2, .no3 {
+  width: 100%;
   margin-left: 0 !important;
   margin-top: 20px !important;
 }
@@ -1587,10 +1588,7 @@ img.copa, img.cardenas, img.jean, img.sholy {
 
 /* Pantallas pequeñas (móviles) */
 @media screen and (max-width: 768px) {
-  /* Ajustes generales */
-  body {
-    font-size: 16px;
-  }
+
   
   /* Header */
   #fh5co-header .navbar-brand {
@@ -1659,14 +1657,17 @@ img.copa, img.cardenas, img.jean, img.sholy {
     font-size: 60px !important;
   }
   
-  .no, .no1, .no2, .no3 {
-    margin-left: 0 !important;
-    margin-top: 20px !important;
-  }
-  
   .copa2, .cardenas2, .jean2 {
     width: 100% !important;
     margin-left: 0 !important;
     margin-top: 20px !important;
   }
 }
+
+@media (max-width: 768px) {
+  .hide-on-mobile {
+      display: none;
+  }
+}
+
+
