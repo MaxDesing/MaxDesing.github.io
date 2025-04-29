@@ -1578,7 +1578,7 @@ img.copa, img.cardenas, img.jean, img.sholy {
   #fh5co-team .team-box {
     width: 100%;
     margin-bottom: 30px;
-    margin-top: 350px; /* Reducir el espacio superior */
+    margin-top: 100px; /* Reducir el espacio superior */
   }
   
   #fh5co-team .team-box .user {
@@ -1760,7 +1760,7 @@ img.copa, img.cardenas, img.jean, img.sholy {
     width: 280px;
     height: 280px;
     margin-left: -140px;
-    margin-top: -200px;
+    margin-top: -100px;
   }
   
   #fh5co-team .team-box .user img {
